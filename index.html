@@ -40,7 +40,7 @@
         </tr>
     </table>
 
-    <p>Exemplo:</p>
+    <p class="exemplo">Exemplo:</p>
     <div class="container">
         <div class="contido"></div>
         <div class="contido"></div>
@@ -50,10 +50,12 @@
     </div> 
     <!-- Justify-content -->
     
-    <h3>Justify-content</h3>
+    <h3 class="valores">Justify-content</h3>
     <p class="descricao-propriedade">A justify-content é a propriedade que alinha os itens do container flexível quando os itens não ocupam todo o espaço disponível no eixo principal (horizontalmente).</p>
-    <p>Exemplos:</p>
-    <h4 class="valores">flex-end</h4> 
+    <p class="exemplos">Exemplos:</p><BR></BR>
+    <h4 class="valores">flex-end</h4>
+    <p class="descricao-propriedade">Alinha os itens no final do contêiner ao longo do eixo principal.
+        Os itens terminam no final do contêiner, e pode haver espaço vazio no início.</p>
     <div class="justify-container-flex-end">
         <div class="justify-contido-flex-end"></div>
         <div class="justify-contido-flex-end"></div>
@@ -61,6 +63,8 @@
         <div class="justify-contido-flex-end"></div>
     </div>
     <h4 class="valores">flex-start</h4>
+    <p class="descricao-propriedade">Alinha os itens no início do contêiner ao longo do eixo principal.
+        Os itens começam a partir do início do contêiner e podem haver espaço vazio no final, dependendo do tamanho do contêiner.</p> 
     <div class="justify-container-flex-start">
         <div class="justify-contido-flex-start"></div>
         <div class="justify-contido-flex-start"></div>
@@ -91,7 +95,7 @@
         <div class="justify-contido-space-around"></div>
         <div class="justify-contido-space-around"></div>
     </div>
-    <h4 class="valor">space-evenly</h4>
+    <h4 class="valores">space-evenly</h4>
     <p class="descricao-propriedade">Distribui os itens de modo que o espaço entre eles e em torno deles seja igual.O espaço vazio no início e no final do contêiner é igual ao espaço entre os itens adjacentes.</p>
     <div class="justify-container-space-evenly">
         <div class="justify-contido-space-evenly"></div>
@@ -99,15 +103,46 @@
         <div class="justify-contido-space-evenly"></div>
         <div class="justify-contido-space-evenly"></div>
     </div>
-    <h4 class="valor">stretch</h4>
-    <p class="">Estica os itens para preencher todo o espaço disponível ao longo do eixo principal.Isso é usado principalmente quando você deseja que os itens ocupem todo o espaço disponível.
+    <h4 class="valores">stretch</h4>
+    <p class="descricao-propriedade">Estica os itens para preencher todo o espaço disponível ao longo do eixo principal.Isso é usado principalmente quando você deseja que os itens ocupem todo o espaço disponível.
     </p>
     <div class="justify-container-stretch">
         <div class="justify-contido-stretch"></div>
         <div class="justify-contido-stretch"></div>
         <div class="justify-contido-stretch"></div>
         <div class="justify-contido-stretch"></div>
+        <div class="justify-contido-stretch"></div>
+        <div class="justify-contido-stretch"></div>
+        <div class="justify-contido-stretch"></div>
+        <div class="justify-contido-stretch"></div>
+        <div class="justify-contido-stretch"></div>
+        <div class="justify-contido-stretch"></div>
     </div>
+
+    <!-- flex-direction -->
+    <h4 class="valores">flex-direction</h4>
+    <p class="descricao-propriedade">A propriedade CSS flex-direction é usada para definir a direção principal em que os itens flexíveis são dispostos dentro de um contêiner flexível. Ela determina se os itens são dispostos horizontalmente ou verticalmente e se a ordem deles deve ser revertida.</p>
+    <p class="exemplos">Exemplos:</p>
+    <h4 class="valores">row</h4>
+    <p class="descricao-propriedade">Esse é o valor padrão.
+        Os itens são dispostos na direção horizontal, da esquerda para a direita.
+        O eixo principal é horizontal.</p>
+    <div class="flex-direction-container-row">
+        <div class="flex-direction-contido-row">1</div>
+        <div class="flex-direction-contido-row">2</div>
+        <div class="flex-direction-contido-row">3</div>
+        <div class="flex-direction-contido-row">4</div>
+    </div>
+    <h4 class="valores">row-reverse</h4>
+    <p class="descricao-propriedade">Os itens são dispostos na direção horizontal, mas a ordem dos itens é revertida, começando da direita para a esquerda.
+        O eixo principal é horizontal.</p>
+    <div class="flex-direction-container-row-reverse">
+        <div class="flex-direction-contido-row-reverse">1</div>
+        <div class="flex-direction-contido-row-reverse">2</div>
+        <div class="flex-direction-contido-row-reverse">3</div>
+        <div class="flex-direction-contido-row-reverse">4</div>
+    </div>
+    <h4></h4>
 
 </body>
 </html>

@@ -8,16 +8,16 @@
 }
 .container {
     height: 300px;
-    background-color: pink;
-    border: 5px solid #f14040;
+    background-color: #929292;
+    border: 5px solid #000;
     display: flex;
 }
 
 .contido {
     width: 100px;
     height: 100px;
-    background-color: rgb(101, 233, 189);
-    border: 5px solid #929292;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
 }
 
 .justify-container-flex-end {
@@ -30,6 +30,129 @@
 }
 
 .justify-contido-flex-end {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+}
+
+.justify-container-flex-start {
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: flex-start
+}
+
+.justify-contido-flex-start {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+
+}
+
+.justify-container-center {
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: center
+}
+
+.justify-contido-center {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+}
+
+.justify-container-space-between {
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: space-between
+}
+
+.justify-contido-space-between {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+}
+
+.justify-container-space-around {
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: space-around
+}
+
+.justify-contido-space-around {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+}
+
+
+.justify-container-space-evenly {
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: space-around
+}
+
+.justify-contido-space-evenly {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+}
+
+.justify-container-stretch {
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    justify-content: stretch
+}
+
+.justify-contido-stretch {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+}
+
+
+.flex-direction-container-row{
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: row;
+}
+.flex-direction-contido-row {
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border: 5px solid rgb(238, 3, 3);
+
+}
+
+.flex-direction-container-row-reverse{
+    height: 300px;
+    background-color: #929292;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-direction-contido-row-reverse {
     width: 100px;
     height: 100px;
     background-color: whitesmoke;
